@@ -4,26 +4,28 @@ color: Red;
 }
 
 h2 {
+font-famile: Georgia, bold;
 color: Blue;
+
 }
 
 
 .grid {
-  border: 2px blue solid;
-  height: 500px;
-  width: 500px;
+  border: 5px Blue solid;
+  height: 1000px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 25% 25% 2fr 1fr;
   grid-template-rows: 200px 200px;
   grid-row-gap: 10px;
-  grid-column-gap: 15px;
+  grid-column-gap: 50px;
 }
 
 .box {
-  background-color: beige;
-  color: black;
+  background-color: Red;
+  color: Black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  border: 2px Dodgerblue solid;
 }
 
 .a {
