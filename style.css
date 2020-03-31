@@ -13,17 +13,17 @@ color: Blue;
 .grid {
   border: 5px Blue solid;
   height: 1000px;
-  width: 1000px;
+  width: 960px;
   display: grid;
-  grid-template-columns: 25% 25% 2fr 1fr;
-  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 50px;
 }
 
 .box {
-  background-color: Red;
-  color: Black;
+  background-color: Teal;
+  color: Orange;
   border-radius: 5px;
   border: 2px Dodgerblue solid;
 }
