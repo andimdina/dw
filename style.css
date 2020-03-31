@@ -6,3 +6,9 @@ color: Red;
 h2 {
 color: Blue;
 }
+
+.grid {
+display: grid;
+width: 500px;
+grid-template-columns: 100px 200px;
+}
